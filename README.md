@@ -7,6 +7,8 @@ The system is intended for deployment from aerial or surface drones, as well as 
 
 The project is developed as a **group engineering project by 3rd-year students of Electronics and Telecommunications at the Faculty of Electronics, Telecommunications and Informatics (ETI), Gdańsk University of Technology**.
 
+<img width="1536" height="1024" alt="Moduł elektroniki i pompowania (1)" src="https://github.com/user-attachments/assets/1452dce4-ea21-411a-8c91-0cca15186130" />
+
 ---
 
 ## Project Objective
