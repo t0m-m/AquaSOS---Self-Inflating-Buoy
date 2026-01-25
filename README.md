@@ -89,11 +89,10 @@ The project integrates their core functionalities into a compact, autonomous sys
 
 The project is currently in the **engineering prototype stage**.
 
-This repository contains:
+This repository will contain:
 
 - schematic diagrams and PCB design files,
 - firmware source code,
 - project documentation and presentation materials,
-- conceptual and system-level design descriptions.
 
 ---
