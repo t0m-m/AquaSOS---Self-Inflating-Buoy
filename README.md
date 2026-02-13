@@ -49,14 +49,12 @@ The main objective of the AquaSOS project is to develop an autonomous rescue buo
 - mechanical structure suitable for drone deployment.
 
 ### Electronic System
-
-- low-power microcontroller (ESP32 / STM32, depending on hardware revision),
-- GNSS module supporting GPS / GLONASS / Galileo,
-- LoRa communication module,
-- high-intensity LED with 360° diffuser for visual signaling,
+- Integrated nRF52840 + GNSS + LoRa module Wio - WM1110
+- high-intensity LED for visual signaling,
 - water contact sensor and 3-axis accelerometer,
-- Li-ion battery (approximately **3–4 Ah**) with integrated BMS,
-- USB-C charging interface,
+- Li-ion battery with integrated BMS,
+- USB-C charging and Data interface,
+- Additional SWD pins serving as backup if USB-C fails,
 - custom-designed PCB integrating all electronic subsystems.
 
 ### Firmware
