@@ -11,6 +11,11 @@ The project is developed as a **group engineering project by 3rd-year students o
 Important Note: This image is AI generated and is just for demonstration purposes. The final version may look different, but the functionality and the idea remains the same.
 
 ---
+## Schematic
+
+<img width="1790" height="1181" alt="image" src="https://github.com/user-attachments/assets/afcc4ffd-4ba2-40ed-902f-bb73206da9d3" />
+
+---
 
 ## Project Objective
 
