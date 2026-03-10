@@ -16,7 +16,7 @@ Important Note: This image is AI generated and is just for demonstration purpose
 <img width="1790" height="1181" alt="image" src="https://github.com/user-attachments/assets/afcc4ffd-4ba2-40ed-902f-bb73206da9d3" />
 
 ---
-##PCB
+## PCB
 
 <img width="1380" height="1273" alt="image" src="https://github.com/user-attachments/assets/66e29e3a-8488-46a8-abe5-47cba2b61d7d" />
 
