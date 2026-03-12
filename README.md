@@ -43,7 +43,8 @@ There are two main ways in which AquaSOS can be deployed, either 'by hand' or dr
 2. Deployment from a drone:
    In this case, the buoy is equipped with a hall sensor, and the payload release mechanism is equipped with strong magnet. When AquaSOS sits in the 'bomb bay', hall sensor detects the magnet and the system is not armed. After opening bay doors, the buoy falls and the sensor stops detecting magnetic field. When it doesn't detect the magnetic field for a couple of seconds, it arms. Then the accelerometer detects impact on the surface of the water and starts inflating AquaSOS.
 
-After inflation Aquasos starts obtaining (through GNSS antenna on-board) and broadcasting its position as well as a distress signal using LoRa FPC antenna mounted to the case. It also activates LED light for easy identification and visibility in night and severe weather conditions.
+After inflation Aquasos starts obtaining (through GNSS antenna on-board) and broadcasting its position as well as a distress signal using LoRa FPC antenna mounted to the case. It also activates LED light  for easy identification and visibility in night and severe weather conditions.
+ 
 ---
 
 ## Technical Assumptions
