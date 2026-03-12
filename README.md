@@ -47,8 +47,6 @@ After inflation Aquasos starts obtaining (through GNSS antenna on-board) and bro
  
 ---
 
-## Technical Assumptions
-
 ### Mechanical Design
 
 - flotation bladder volume: approximately **15 L**,
