@@ -5,7 +5,7 @@
 **AquaSOS** is an intelligent rescue buoy designed to provide immediate flotation and rapid localization of a person in distress in water.  
 The system is intended for deployment from aerial or surface drones, as well as for use as a modern safety device on ships and yachts.
 
-The project is developed as a **group engineering project by 3rd-year students of Electronics and Telecommunications at the Faculty of Electronics, Telecommunications and Informatics (ETI), Gdańsk University of Technology**.
+The project is developed as a **group engineering project by 3rd-year students of Electronics and Telecommunications at the Faculty of Electronics, Telecommunications and Informatics (ETI), Gdańsk University of Technology** in collaboration with **AREX Automation and Measurement Devices Plant Sp. z o. o.** from Gdynia.
 
 <img width="1536" height="1024" alt="Moduł elektroniki i pompowania (1)" src="https://github.com/user-attachments/assets/1452dce4-ea21-411a-8c91-0cca15186130" />
 Important Note: This image is AI generated and is just for demonstration purposes. The final version may look different, but the functionality and the idea remains the same.
@@ -35,15 +35,15 @@ The main objective of the AquaSOS project is to develop an autonomous rescue buo
 
 ## Principle of Operation
 
-1. The buoy is deployed into the water, either by drone drop or manual activation.
-2. A water contact sensor or inertial sensor detects immersion or impact.
-3. The inflation mechanism is triggered, filling the flotation bladder with CO₂.
-4. The electronic system switches to rescue mode:
-   - the GNSS module acquires the position,
-   - the communication module periodically transmits the location,
-   - the visual signaling system is activated.
-5. The transmitted position can be received by rescue services or a dedicated ground station.
+There are two main ways in which AquaSOS can be deployed, either 'by hand' or dropped from a flying or swimming drone using payload release mechanism which we are also developing.
 
+1. Deployment by hand:
+   First, the user needs to hold waterproof button on the side of the buoy for 3 seconds, after which acoustic signal informs the user of the arming of the system. Then user tossess AquaSOS to the drowning person. The accelerometer detects the impact on the surface of the water and immediately triggers inflating mechanism.
+
+2. Deployment from a drone:
+   In this case, the buoy is equipped with a hall sensor, and the payload release mechanism is equipped with strong magnet. When AquaSOS sits in the 'bomb bay', hall sensor detects the magnet and the system is not armed. After opening bay doors, the buoy falls and the sensor stops detecting magnetic field. When it doesn't detect the magnetic field for a couple of seconds, it arms. Then the accelerometer detects impact on the surface of the water and starts inflating AquaSOS.
+
+After inflation Aquasos starts obtaining (through GNSS antenna on-board) and broadcasting its position as well as a distress signal using LoRa FPC antenna mounted to the case. It also activates LED light for easy identification and visibility in night and severe weather conditions.
 ---
 
 ## Technical Assumptions
@@ -60,9 +60,9 @@ The main objective of the AquaSOS project is to develop an autonomous rescue buo
 ### Electronic System
 - Integrated nRF52840 + GNSS + LoRa module Wio - WM1110
 - high-intensity LED for visual signaling,
-- water contact sensor and 3-axis accelerometer,
-- Li-ion battery with integrated BMS,
-- USB-C charging and Data interface,
+- 3-axis accelerometer,
+- Li-ion battery (in the prototype we used normal drone battery pack that will be charged using external charger, however in the future we plan to fully integrate tha battery and charging circuit within the   main PCB),
+- USB-C data interface,
 - Additional SWD pins serving as backup if USB-C fails,
 - custom-designed PCB integrating all electronic subsystems.
 
@@ -82,6 +82,8 @@ The main objective of the AquaSOS project is to develop an autonomous rescue buo
 ---
 
 ## Context and Inspiration
+
+AquaSOS aims to significantly shorten the time it takes to reach a drowning victim by enabling the buoy to be attached to flying drones, which can reach the victim faster than any human rescuer.
 
 AquaSOS draws inspiration from existing maritime rescue solutions, such as:
 
