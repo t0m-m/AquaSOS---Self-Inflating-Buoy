@@ -16,9 +16,14 @@ Important Note: This image is AI generated and is just for demonstration purpose
 <img width="1790" height="1181" alt="image" src="https://github.com/user-attachments/assets/afcc4ffd-4ba2-40ed-902f-bb73206da9d3" />
 
 ---
-## PCB
+## 3D PCB
 
 <img width="1380" height="1273" alt="image" src="https://github.com/user-attachments/assets/66e29e3a-8488-46a8-abe5-47cba2b61d7d" />
+
+---
+## Soldered PCB 
+
+<img width="1854" height="1834" alt="20260506_214335" src="https://github.com/user-attachments/assets/b6a6e155-05af-4dc3-b970-5a1c7682e2e1" />
 
 ---
 ## Project Objective
